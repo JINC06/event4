@@ -1,7 +1,7 @@
 <?php
 
 include_once('Settings/conexion.php');
-include_once('Settings/libs/phpqrcode/qrlib.php');
+include_once('static/libs/phpqrcode/qrlib.php');
 
 $name = $_POST['name'];
 $email = $_POST['email'];
